@@ -3,7 +3,7 @@ var playlist = {
   song: "I look to you"
 }
 
-updatePlaylist(obj, key, value){
+updatePlaylist(obj, key, value) {
   obj[key] = value;
   return obj;
 }
