@@ -4,8 +4,8 @@ var playlist = {
 }
 
 updatePlaylist(obj, key, value){
-  obj[key] = value
-  return obj
+  obj[key] = value;
+  return obj;
 }
 
 updatePlaylist(playlist, "Michael Jackson", "The way you make me feel")
