@@ -6,4 +6,6 @@ var playlist = {
 
 updatePlaylist(playlist, "Michael Jackson", "The way you make me feel")
 
-delete playlist.artist;
+function removeFromPlaylist(playlist, artistName){
+  delete playlist.artist;
+}
